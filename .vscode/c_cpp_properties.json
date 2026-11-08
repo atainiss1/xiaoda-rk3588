@@ -1,0 +1,13 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "RK3588 ARM64",
+      "compilerPath": "/usr/local/arm64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-g++",
+      "compileCommands": "${workspaceFolder}/build/rk3588/compile_commands.json",
+      "intelliSenseMode": "linux-gcc-arm64",
+      "cStandard": "c11",
+      "cppStandard": "c++17"
+    }
+  ]
+}

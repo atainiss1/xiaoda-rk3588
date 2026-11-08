@@ -1,0 +1,18 @@
+[Unit]
+Description=RK3588 idle fan stop with temperature guard
+After=sysinit.target
+StartLimitIntervalSec=60
+StartLimitBurst=3
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /usr/local/sbin/rk3588-fan-quiet.py
+ExecStopPost=/usr/bin/python3 /usr/local/sbin/rk3588-fan-quiet.py --restore
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=5
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target
+

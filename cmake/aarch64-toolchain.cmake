@@ -1,0 +1,13 @@
+set(CMAKE_SYSTEM_NAME Linux)
+set(CMAKE_SYSTEM_PROCESSOR aarch64)
+set(ARM64_TOOLCHAIN_ROOT
+    "/usr/local/arm64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu"
+    CACHE PATH "Existing Arm GNU toolchain root")
+set(CMAKE_C_COMPILER "${ARM64_TOOLCHAIN_ROOT}/bin/aarch64-none-linux-gnu-gcc")
+set(CMAKE_CXX_COMPILER "${ARM64_TOOLCHAIN_ROOT}/bin/aarch64-none-linux-gnu-g++")
+set(CMAKE_SYSROOT "${ARM64_TOOLCHAIN_ROOT}/aarch64-none-linux-gnu/libc")
+set(CMAKE_FIND_ROOT_PATH "${CMAKE_SYSROOT}" "${ARM64_TOOLCHAIN_ROOT}/aarch64-none-linux-gnu")
+set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_PACKAGE ONLY)

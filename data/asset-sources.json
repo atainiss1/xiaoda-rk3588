@@ -1,0 +1,38 @@
+{
+  "edge2.png": {
+    "url": "https://static.wixstatic.com/media/04d639_e30b0142c74048e98ba3696b38571128~mv2.png",
+    "sha256": "f68605c51f93051fe59cad8a373d793350d1b76c45ff6390f6998fcf26a8bd38"
+  },
+  "mind2.png": {
+    "url": "https://static.wixstatic.com/media/04d639_a951f66df7ea462b9e54d2bd9028ab97~mv2.png",
+    "sha256": "7fe6cc17264378e8255ef30abfe013a1fe75fc7431fe62eefaec5eb001fd27e4"
+  },
+  "vim4.jpg": {
+    "url": "https://static.wixstatic.com/media/e24822_1ac13f4844634a4db186563232b8601a~mv2.jpg",
+    "sha256": "76e054ee292d9a0703d2e656f259da1b8e8c7d1d4c23eda11c288eb481ba4b9c"
+  },
+  "tea_pro.jpg": {
+    "url": "https://static.wixstatic.com/media/7027d7_14cc18e3c267487f9a89091fedebec55~mv2.jpg",
+    "sha256": "fec2f9658f8db9eb39df103b069aeee4997b4c3cfa5c1bc17e6c58de641fd251"
+  },
+  "mind_pro.jpg": {
+    "url": "https://static.wixstatic.com/media/27e183_f787b97d37014314aa3773a8b77acece~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+    "page": "https://www.khadas.com/product-page/mind-pro",
+    "sha256": "80ecc0d457ca7f4ea217f63aa0f8c12ffab98681a2f9e5c5aeb3e6430ea79c8c"
+  },
+  "graphics.jpg": {
+    "url": "https://static.wixstatic.com/media/18b2b2_a9bfdd9511eb4d989936cb9d36eff4ac~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+    "page": "https://www.khadas.com/product-page/mind-graphics",
+    "sha256": "288c3d6ce7edcaf2f000cce0150b7767d11299e86299ce5e086d9e1ce4731d67"
+  },
+  "graphics2.jpg": {
+    "url": "https://static.wixstatic.com/media/27e183_0cf639440a484de18f970388e8bedefc~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+    "page": "https://www.khadas.com/product-page/mind-graphics-2",
+    "sha256": "e7eab2d539584c780aaad327639c7f8e7f48861667258b9f109401dc67e86645"
+  },
+  "xplay.jpg": {
+    "url": "https://static.wixstatic.com/media/27e183_00fc2342fa20410285605f46d6d77fee~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+    "page": "https://www.khadas.com/product-page/mind-xplay",
+    "sha256": "ce2e87bdc95ac2c07976281eb1445cfec9f395641d7f40659cfbdc61051b84eb"
+  }
+}

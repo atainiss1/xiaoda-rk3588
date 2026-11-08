@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "RK3588: configure",
+      "type": "process",
+      "command": "cmake",
+      "args": ["-S", ".", "-B", "build/rk3588", "-DCMAKE_TOOLCHAIN_FILE=cmake/aarch64-toolchain.cmake", "-DCMAKE_BUILD_TYPE=Release"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": []
+    },
+    {
+      "label": "RK3588: build",
+      "type": "process",
+      "command": "cmake",
+      "args": ["--build", "build/rk3588", "--parallel", "4"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "dependsOn": "RK3588: configure",
+      "group": {"kind": "build", "isDefault": true},
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "Host: configure",
+      "type": "process",
+      "command": "cmake",
+      "args": ["-S", ".", "-B", "build/host", "-DCMAKE_BUILD_TYPE=Debug"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": []
+    },
+    {
+      "label": "Host: build",
+      "type": "process",
+      "command": "cmake",
+      "args": ["--build", "build/host", "--parallel", "4"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "dependsOn": "Host: configure",
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "Host: test",
+      "type": "process",
+      "command": "ctest",
+      "args": ["--output-on-failure"],
+      "options": {"cwd": "${workspaceFolder}/build/host"},
+      "dependsOn": "Host: build",
+      "problemMatcher": []
+    }
+  ]
+}

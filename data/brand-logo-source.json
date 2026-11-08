@@ -1,0 +1,14 @@
+{
+  "verified": "2026-10-25",
+  "variant": "User-requested UI theme variant; official path geometry preserved, all visible paths recolored #218F88",
+  "sources": [
+    {
+      "url": "https://dl.khadas.com/about-khadas/khadas-media-kit/khadas-logo/for-screen/khadas-logo-logotype-color.svg",
+      "original_sha256": "51fcb735faa5ceb8775aa3c936b50daec5b2c804cb92257c33252e083ae428fd"
+    },
+    {
+      "url": "https://dl.khadas.com/about-khadas/khadas-media-kit/khadas-logo/for-screen/khadas-logo-standard-color.svg",
+      "original_sha256": "df70d01422fe0656a0e108d0d04d0a8081531e4308bd8be36e1edace50572782"
+    }
+  ]
+}

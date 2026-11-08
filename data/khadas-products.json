@@ -1,0 +1,295 @@
+{
+  "verified": "2026-10-25",
+  "products": {
+    "overview": {
+      "name": "Khadas",
+      "tag": "探索你的下一种可能",
+      "tag_en": "Find your next possibility",
+      "category": "产品导览 / PRODUCT GUIDE",
+      "image": "edge2.png",
+      "features": [
+        "Mind · 电脑与模块化扩展",
+        "Edge / VIM · ARM 开发板",
+        "Tea Pro · 便携音频"
+      ],
+      "features_en": [
+        "Mind · PCs and modular expansion",
+        "Edge / VIM · ARM computers",
+        "Tea Pro · Portable audio"
+      ],
+      "use": "说一个产品名，让小哒带你了解。",
+      "use_en": "Name a product and let Xiaoda introduce it.",
+      "url": "https://www.khadas.com/shop",
+      "facts": "本机提供八个产品条目：Mind Pro、Mind Graphics 2、Mind xPlay、Mind Graphics、Edge2、VIM4、Mind 2/2s与Tea Pro。此目录不是完整商店库存；Graphics是显卡扩展，xPlay是连接主机使用的非触屏便携显示器，不能将两者说成独立电脑。",
+      "interfaces": [
+        "Edge / VIM · 开发板",
+        "Mind · 迷你电脑",
+        "Tea Pro · 便携音频"
+      ],
+      "interfaces_en": [
+        "Edge / VIM · Single-board computers",
+        "Mind · Mini PCs",
+        "Tea Pro · Portable audio"
+      ],
+      "items": [
+        "mind_pro",
+        "graphics2",
+        "xplay",
+        "graphics",
+        "edge2",
+        "vim4",
+        "mind2",
+        "tea_pro"
+      ]
+    },
+    "edge2": {
+      "name": "Edge2",
+      "tag": "把 AI 创意，带到设备上",
+      "tag_en": "Bring AI ideas to the edge",
+      "category": "ARM 开发板 / SINGLE-BOARD COMPUTER",
+      "image": "edge2.png",
+      "features": [
+        "RK3588S2 · 八核处理器",
+        "6 TOPS · 内置 NPU",
+        "最高 16GB · LPDDR4X"
+      ],
+      "features_en": [
+        "RK3588S2 · Octa-core processor",
+        "6 TOPS · Integrated NPU",
+        "Up to 16GB · LPDDR4X"
+      ],
+      "use": "适合探索边缘 AI、视觉与嵌入式项目。",
+      "use_en": "Explore edge AI, vision and embedded projects.",
+      "interfaces": [
+        "HDMI 2.1 · USB 3.1 / 2.0",
+        "USB-C · DP 1.4 / PD",
+        "Maker Kit · MIPI-CSI / DSI"
+      ],
+      "interfaces_en": [
+        "HDMI 2.1 · USB 3.1 / 2.0",
+        "USB-C · DP 1.4 / PD",
+        "Maker Kit · MIPI-CSI / DSI"
+      ],
+      "url": "https://www.khadas.com/product-page/edge2",
+      "facts": "官方现款使用RK3588S2，内置6 TOPS NPU与Wi-Fi 6。Basic为8GB内存+32GB eMMC，Pro为16GB+64GB。支持Ubuntu和Android，实际镜像和功能以官方支持为准。ARM PC和Maker Kit的接口可访问性不同，不能把所有裸板接口都说成成品外露接口；电源适配器与USB-C线单独销售。"
+    },
+    "vim4": {
+      "name": "VIM4",
+      "tag": "连接影像，也连接创意",
+      "tag_en": "Connect video. Build ideas.",
+      "category": "ARM 开发板 / SINGLE-BOARD COMPUTER",
+      "image": "vim4.jpg",
+      "features": [
+        "A311D2 · 八核处理器",
+        "HDMI 输入 · 最高 4K60",
+        "Wi-Fi 6 · 千兆以太网"
+      ],
+      "features_en": [
+        "A311D2 · Octa-core processor",
+        "HDMI input · Up to 4K60",
+        "Wi-Fi 6 · Gigabit Ethernet"
+      ],
+      "use": "关注视频输入、网络连接与嵌入式开发。",
+      "use_en": "For video input, connectivity and development.",
+      "interfaces": [
+        "HDMI 输入 · 最高 4K60",
+        "千兆以太网 · 支持 WoL",
+        "M.2 · SSD / LTE 扩展"
+      ],
+      "interfaces_en": [
+        "HDMI input · Up to 4K60",
+        "Gigabit Ethernet · WoL",
+        "M.2 · SSD / LTE expansion"
+      ],
+      "url": "https://www.khadas.com/product-page/vim4",
+      "facts": "Amlogic A311D2，8GB LPDDR4X+32GB eMMC，Wi-Fi 6，千兆以太网支持WoL。3.2 TOPS NPU仅NPU版本具备，不能说所有VIM4都有NPU。支持OOWOW。电源适配器与USB-C线单独销售。"
+    },
+    "mind2": {
+      "name": "Mind 2 / 2s",
+      "tag": "小小身形，完整工作空间",
+      "tag_en": "A workspace in your palm",
+      "category": "迷你电脑 / MINI PC",
+      "image": "mind2.png",
+      "features": [
+        "Intel Core Ultra · 系列处理器",
+        "Mind Link · 模块化扩展",
+        "Thunderbolt 4 · USB4"
+      ],
+      "features_en": [
+        "Intel Core Ultra processors",
+        "Mind Link · Modular expansion",
+        "Thunderbolt 4 · USB4"
+      ],
+      "use": "适合桌面办公及便携工作空间。",
+      "use_en": "For desktop work and a portable workspace.",
+      "interfaces": [
+        "Thunderbolt 4 · 40Gbps",
+        "USB4 · 40Gbps",
+        "HDMI · USB-A · Mind Link"
+      ],
+      "interfaces_en": [
+        "Thunderbolt 4 · 40Gbps",
+        "USB4 · 40Gbps",
+        "HDMI · USB-A · Mind Link"
+      ],
+      "url": "https://www.khadas.com/mind-2",
+      "facts": "Mind 2与2s是不同配置：Mind 2使用Core Ultra Series 1；Mind 2s使用Core Ultra 7 Series 2。官网列435克、厚2.0厘米，支持Mind Link扩展。内置5.55Wh电池用于断电待机过渡，不能宣称可长时间脱离电源作为笔记本使用。Dock、Graphics等扩展模块另选。具体内存存储需区分SKU。"
+    },
+    "tea_pro": {
+      "name": "Tea Pro",
+      "tag": "好声音，随身贴合",
+      "tag_en": "Great sound, wherever you go",
+      "category": "便携解码耳放 / PORTABLE DAC & AMP",
+      "image": "tea_pro.jpg",
+      "features": [
+        "磁吸机身 · 便携设计",
+        "4.4mm 平衡 · 3.5mm 输出",
+        "USB 音频 · 蓝牙聆听"
+      ],
+      "features_en": [
+        "Magnetic · Portable design",
+        "4.4mm balanced · 3.5mm output",
+        "USB audio · Bluetooth listening"
+      ],
+      "use": "为手机、平板和电脑搭配有线耳机。",
+      "use_en": "Connect wired headphones to phones and PCs.",
+      "interfaces": [
+        "4.4mm · 平衡耳机接口",
+        "3.5mm · 耳机接口",
+        "USB · 蓝牙音频"
+      ],
+      "interfaces_en": [
+        "4.4mm · Balanced headphones",
+        "3.5mm · Headphone output",
+        "USB · Bluetooth audio"
+      ],
+      "url": "https://www.khadas.com/tea-pro",
+      "facts": "Tea Pro为超薄磁吸DAC与耳机放大器，官方列重96克，带AMOLED显示屏，支持4.4mm平衡和3.5mm输出、USB音频及蓝牙。非磁吸设备可能需加装磁环。蓝牙编码和设备兼容性依设备与模式而定；不是蓝牙音箱。"
+    },
+    "mind_pro": {
+      "name": "Mind Pro",
+      "tag": "掌心大小，专业工作空间",
+      "tag_en": "A professional workspace in your palm",
+      "category": "模块化迷你电脑 / MODULAR MINI PC",
+      "image": "mind_pro.jpg",
+      "imageZoom": 2.4,
+      "features": [
+        "Intel Core Ultra · Series 3",
+        "0.43L 机身 · 65W 持续功率",
+        "双 Thunderbolt 4 · 模块扩展"
+      ],
+      "features_en": [
+        "Intel Core Ultra · Series 3",
+        "0.43L enclosure · Sustained 65W",
+        "Dual Thunderbolt 4 · Modular I/O"
+      ],
+      "interfaces": [
+        "Thunderbolt 4 ×2 · 40Gbps",
+        "HDMI 2.1 FRL · USB-A ×2",
+        "Mind Link · PCIe 5.0 ×4"
+      ],
+      "interfaces_en": [
+        "Thunderbolt 4 ×2 · 40Gbps",
+        "HDMI 2.1 FRL · USB-A ×2",
+        "Mind Link · PCIe 5.0 ×4"
+      ],
+      "use": "搭配 Graphics、xPlay 或 Dock 扩展工作空间。",
+      "use_en": "Expand with Graphics, xPlay or a Dock.",
+      "url": "https://www.khadas.com/product-page/mind-pro",
+      "facts": "Mind Pro为Core Ultra Series 3模块化迷你电脑，和Mind 2/2s不同。官网列0.43L、65W持续功率、双Thunderbolt 4，以及7.98Wh待机电池。该电池用于待机与转场，不可说成能长时间独立供电办公。处理器、内存和存储随SKU而异；官网当前列X7 358H与X9 388H的不同配置，不能把最高配置说成所有版本标配。扩展模块另外选购。"
+    },
+    "graphics": {
+      "name": "Mind Graphics",
+      "tag": "为桌面增加独立图形性能",
+      "tag_en": "Add desktop graphics to your setup",
+      "category": "独立显卡扩展 / EXTERNAL GPU",
+      "image": "graphics.jpg",
+      "features": [
+        "RTX 4060 Ti",
+        "Mind Link · 雷电连接",
+        "显示 · 网络 · 音频"
+      ],
+      "features_en": [
+        "NVIDIA GeForce RTX 4060 Ti",
+        "Mind Link · Thunderbolt hosts",
+        "Display, network and audio I/O"
+      ],
+      "interfaces": [
+        "HDMI ×2 · DisplayPort ×1",
+        "USB-C · USB-A ×3",
+        "2.5GbE · SD 卡 · 3.5mm"
+      ],
+      "interfaces_en": [
+        "HDMI ×2 · DisplayPort ×1",
+        "USB-C · USB-A ×3",
+        "2.5GbE · SD card · 3.5mm"
+      ],
+      "use": "为兼容主机扩展图形性能与桌面接口。",
+      "use_en": "Add graphics and I/O to a compatible host.",
+      "url": "https://www.khadas.com/product-page/mind-graphics",
+      "facts": "这是搭载RTX 4060 Ti的外置显卡扩展模块，不是独立电脑，不是RTX 5060 Ti的Graphics 2。可用Mind Link连接Mind，或连接支持的Thunderbolt 3/4主机；使用认证线材，普通USB-C接口不等于兼容eGPU。商品页列显存选择项，具体容量必须区分所选SKU，不能把某个容量默认为全部版本。配有HDMI、DisplayPort、2.5GbE、SD卡槽、音频与USB扩展。性能、显示输出能力和兼容性依主机、驱动和连接方式而定。"
+    },
+    "graphics2": {
+      "name": "Mind Graphics 2",
+      "tag": "让图形创作拥有更多空间",
+      "tag_en": "More room for graphics and creation",
+      "category": "独立显卡扩展 / EXTERNAL GPU",
+      "image": "graphics2.jpg",
+      "features": [
+        "RTX 5060 Ti",
+        "16GB GDDR7 显存",
+        "Mind Link · USB4 / 雷电"
+      ],
+      "features_en": [
+        "NVIDIA GeForce RTX 5060 Ti",
+        "16GB GDDR7 · Graphics memory",
+        "Mind Link · USB4 / Thunderbolt"
+      ],
+      "interfaces": [
+        "HDMI 2.1b ×2 · DP 2.1b ×1",
+        "USB-C · USB-A · Mind Link",
+        "2.5GbE · SD 卡 · 3.5mm"
+      ],
+      "interfaces_en": [
+        "HDMI 2.1b ×2 · DP 2.1b ×1",
+        "USB-C · USB-A · Mind Link",
+        "2.5GbE · SD card · 3.5mm"
+      ],
+      "use": "为兼容主机提供图形加速与桌面扩展。",
+      "use_en": "Graphics acceleration for compatible hosts.",
+      "url": "https://www.khadas.com/product-page/mind-graphics-2",
+      "facts": "Graphics 2为外置显卡扩展模块，采用桌面RTX 5060 Ti与16GB GDDR7显存，不能混写为初代RTX 4060 Ti。官方列PCIe 4.0 x8、350W电源、2.5GbE、HDMI、DisplayPort、SD卡槽及音频。未连接Mind时，40Gbps USB-C口可通过Thunderbolt 4/3或USB4连接兼容主机进行GPU加速；普通USB-C充电口不代表支持。它需要主机，不能独立运行操作系统；具体性能与兼容性依主机、线材、驱动及连接方式而定。"
+    },
+    "xplay": {
+      "name": "Mind xPlay",
+      "tag": "把工作空间，带到下一站",
+      "tag_en": "Take your workspace with you",
+      "category": "便携显示设备 / PORTABLE DISPLAY",
+      "image": "xplay.jpg",
+      "features": [
+        "13 英寸 · 2880 × 1920",
+        "内置电池 · 可配磁吸键盘",
+        "连接主机使用 · 非独立电脑"
+      ],
+      "features_en": [
+        "13-inch · 2880 × 1920 display",
+        "Built-in battery · Optional keyboard",
+        "Host required · Not a standalone PC"
+      ],
+      "interfaces": [
+        "USB-C 输入 · 显示 / 充电",
+        "USB-C 输出 · 外设 / 视频",
+        "Mind Link · 键盘连接口"
+      ],
+      "interfaces_en": [
+        "USB-C input · Display / charging",
+        "USB-C output · Peripherals / video",
+        "Mind Link · Keyboard connector"
+      ],
+      "use": "便携显示器，不支持触屏；键盘按套装选择。",
+      "use_en": "No touchscreen; keyboard depends on the kit.",
+      "url": "https://www.khadas.com/product-page/mind-xplay",
+      "facts": "xPlay是13英寸2.8K便携显示设备，不是内置CPU的独立笔记本，也不是触屏平板；官方明确不支持触屏输入。连接Mind或其他支持的视频输出主机使用；USB-C主机需支持DisplayPort输出，兼容性依主机、线材和系统而定。屏幕和磁吸键盘可分开销售，照片展示键盘不代表所有SKU都包含。官网规格列60Hz、100% sRGB、47.94Wh电池、双扬声器、双麦克风与2MP摄像头，续航依主机与负载条件而异。"
+    }
+  }
+}
