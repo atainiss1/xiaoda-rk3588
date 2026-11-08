@@ -1,5 +1,31 @@
 # 构建与运行
 
+## 从 Windows 连接到实机
+
+1. 在 Windows 上用 VMware Workstation 启动 Ubuntu 20.04.6 x86-64 虚拟机，在虚拟机的 VS Code 中打开仓库。开发板运行 Ubuntu 22.04.4 ARM64，接 7 英寸 MIPI 屏并用以太网接入路由器。
+2. 在开发板终端运行 `hostname -I` 查看局域网地址。确保虚拟机能访问该地址。在**虚拟机终端**设置下面两个变量；输入板上实际的普通用户和 IP。
+
+   ```bash
+   read -rp '板端用户名: ' BOARD_USER
+   read -rp '开发板 IP: ' BOARD_IP
+   BOARD="${BOARD_USER}@${BOARD_IP}"
+   ssh "$BOARD" 'uname -m'
+   ```
+
+   成功登录时开发板输出 `aarch64`。后续在虚拟机运行第 1–3 节的测试和交叉构建。
+3. 首次部署先按第 4 节准备模型、运行库和自己的设备身份。在**虚拟机的仓库根目录**，下面的示例把程序和界面文件传到板端用户目录：
+
+   ```bash
+   ssh "$BOARD" 'mkdir -p ~/xiaoda-rk3588/bin'
+   scp build/rk3588/rkvoice_cloud build/deploy/rkvoice_ui "$BOARD:xiaoda-rk3588/bin/"
+   scp -r ui data scripts "$BOARD:xiaoda-rk3588/"
+   ```
+
+4. 在开发板已登录的图形桌面里，从 `~/xiaoda-rk3588` 运行 `bash scripts/run-ui.sh --preview` 检查显示与触摸。准备好语音依赖后，按第 4 节启动真实会话并测试唤醒、收音与播放。后续只改 QML 或图片时，用 SCP 同步对应文件，再重新启动界面即可。
+
+**串口与烧录口各有用途。** 网络尚未启动时，Windows 可通过 USB 转串口连接板上 UART 调试口，在 MobaXterm 查看启动日志。需要写入或恢复整个系统镜像时，Windows 使用 RKDevTool 和 USB 数据线连接板上烧录口；镜像与 Loader 操作以迅为对应板型和屏幕的手册为准。
+
+
 ## 1. 在 Ubuntu 上跑本机测试
 
 从仓库根目录执行。需要 CMake 3.16 或以上、支持 C++17 的编译器、Python 3、OpenSSL、PulseAudio 和 Opus 的开发文件。
