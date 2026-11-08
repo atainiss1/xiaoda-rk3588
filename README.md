@@ -1,8 +1,8 @@
 # 小哒 · Xiaoda
 
-小哒是我在迅为 iTOP-RK3588 上做的第一个嵌入式 AI 项目。它平时是桌面上的语音伙伴，能用中文或英文聊天、查天气。说「介绍一下 Khadas 的产品」，屏幕上的小哒就会拉出产品牌，边展示边讲解。
+小哒是运行在迅为 iTOP-RK3588 上的桌面语音伙伴，支持中英文对话和天气查询。说「介绍一下 Khadas 的产品」，小哒会在屏幕上展开产品牌，并用语音讲解。
 
-我是 Steven.Xia，在 Khadas 做软件开发。这个项目由我个人开发和维护。[@atainiss1](https://github.com/atainiss1)
+这是 Khadas 软件工程师 [Steven.Xia（@atainiss1）](https://github.com/atainiss1) 以个人身份开发和维护的首个嵌入式 AI 项目。
 
 <p align="center">
   <img src="docs/images/idle.png" width="32%" alt="小哒在触摸屏上待机">
@@ -34,7 +34,7 @@ flowchart LR
     B -->|"以太网"| C["路由器 → 云端语音服务"]
 ```
 
-我在 Windows 上用 VMware Workstation 运行 Ubuntu 20.04.6 虚拟机，在 VS Code 里写 C++ 和 QML。先用 CMake 构建并用 CTest 跑本机测试，再用 Arm GNU 10.3 交叉编译 ARM64 程序。
+开发环境为 Windows 上的 VMware Workstation 虚拟机，运行 Ubuntu 20.04.6。C++ 和 QML 代码在虚拟机内使用 VS Code 编辑。项目通过 CMake 构建，使用 CTest 运行本机测试，再用 Arm GNU 10.3 交叉编译开发板所需的 ARM64 程序。
 
 日常上板用 SCP 传程序和素材，用 SSH 启动服务、查看日志，然后在实机上测试收音、播放和触摸。查看早期启动日志用 MobaXterm 接 USB 串口，刷系统镜像用 RKDevTool 接 USB 烧录口。具体命令见[构建与运行](docs/BUILD.md)。
 
